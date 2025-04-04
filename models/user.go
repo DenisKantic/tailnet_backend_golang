@@ -11,5 +11,6 @@ type UserRegister struct {
 	ConfirmPassword string `json:"confirm_password" binding:"required"`
 	Location        string `json:"location" binding:"required"`
 	Email           string `json:"email" binding:"required"`
+	ProfileImageURL string `json:"profile_image_url"`
 	Bio             string `json:"bio" binding:"required"`
 }
